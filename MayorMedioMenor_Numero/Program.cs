@@ -60,7 +60,20 @@ namespace MayorMedioMenor_Numero
                         if ((c > a) && (b > a))
                         {
                             Console.WriteLine("{0} es el mayor ", c);
+                        if (b > a)
+                        {
+                            Console.WriteLine("{0} es el medio ", b);
+                            Console.WriteLine("{0} es el menor ", a);
                         }
+                        else
+                        {
+                            if (a > b)
+                            {
+                                Console.WriteLine("{0} es el medio ", a);
+                                Console.WriteLine("{0} es el menor ", b);
+                            }
+                        }
+                    }
                     }
                 }
                 Console.ReadKey();
